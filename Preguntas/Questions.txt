@@ -1,0 +1,9 @@
+• Are there any suggestions you could make about the structure of our data?
+
+* Le pondria un ID a la tabla de songs, por el simple hecho que quiera hacer inserciones o algunos otros metodos.
+* Realizaria una tabla intermedia de songs y genres con sus ID'S , esto se hace pensando que la base de datos se vaya hacer mas grande en un futuro.
+
+
+• What fields would you index in these tables?
+Indexaria el genres ya que es su llave primaria, y agregaria un id tipo int en songs y lo indexaria. Por el simple hecho que son mas eficientes las busquedas
+de los datos
